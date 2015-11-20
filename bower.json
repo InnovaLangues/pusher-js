@@ -1,0 +1,23 @@
+{
+  "name": "pusher-js",
+  "homepage": "https://github.com/InnovaLangues/pusher-js",
+  "authors": [
+    "Donovan Tengblad <purplefish32@gmail.com>"
+  ],
+  "description": "JS Pusher",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "JS",
+    "Pousher",
+    "Websocket"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
