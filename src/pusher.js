@@ -13,7 +13,7 @@
 	    
 	    this.subscribe = function(channel, callback) {
 	    	return client.subscribe('/' + app + channel, function(message) {
-				return callback(message.data);
+				return callback(message);
 			});
 	    };
 
