@@ -5,13 +5,11 @@
 	    this.key = key;
 
 	    var client = new Faye.Client(url);
-
-	    client.setHeader('key', key);
 	    
 	    this.subscribe = function(channel, callback) {
 	    	return client.subscribe('/' + key + channel, function(message) {
-				return callback(message);
-			});
+			return callback(message);
+		});
 	    };
 
 	    this.unsubscribe = function(subscription) {
